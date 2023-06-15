@@ -1,4 +1,4 @@
-[mypy]
+
 implicit_reexport = True
 show_error_codes = True
 python_version = 3.9
