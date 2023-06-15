@@ -1,8 +1,3 @@
-"""
-Python 3 Object-Oriented Programming 4th ed.
-
-Chapter 2. Case Study
-"""
 from __future__ import annotations
 from collections.abc import Iterator
 import datetime
@@ -184,11 +179,6 @@ data='test', k=3, quality=0.0
 """
 
 __test__ = {name: case for name, case in globals().items() if name.startswith("test_")}
-"""
-Python 3 Object-Oriented Programming Case Study
-
-Chapter 3, When Objects Are Alike
-"""
 from __future__ import annotations
 import abc
 import collections
@@ -799,11 +789,6 @@ data='test', k=3, quality=0.0
 """
 
 __test__ = {name: case for name, case in globals().items() if name.startswith("test_")}
-"""
-Python 3 Object-Oriented Programming Case Study
-
-Chapter 4, Expecting the Unexpected
-"""
 from __future__ import annotations
 import collections
 import datetime
@@ -1380,11 +1365,6 @@ Row 2: invalid species in {'sepal_length': 7.9, 'sepal_width': 3.2, 'petal_lengt
 """
 
 __test__ = {name: case for name, case in globals().items() if name.startswith("test_")}
-"""
-Python 3 Object-Oriented Programming Case Study
-
-Chapter 5, When to Use Object-Oriented Programming
-"""
 from __future__ import annotations
 import collections
 import csv
@@ -1902,11 +1882,6 @@ data='test', k=3, quality=0.0
 """
 
 __test__ = {name: case for name, case in globals().items() if name.startswith("test_")}
-"""
-Python 3 Object-Oriented Programming Case Study
-
-Chapter 6, Abstract Base Classes and Operator Overloading
-"""
 from __future__ import annotations
 import abc
 import collections
@@ -2824,11 +2799,6 @@ data='test', k=3, quality=0.0
 """
 
 __test__ = {name: case for name, case in globals().items() if name.startswith("test_")}
-"""
-Python 3 Object-Oriented Programming Case Study
-
-Chapter 7.
-"""
 from __future__ import annotations
 import collections
 from dataclasses import dataclass, asdict
@@ -2954,4 +2924,3 @@ UnknownSample(sepal_length=5.1, sepal_width=3.5, petal_length=1.4, petal_width=0
 
 
 __test__ = {name: case for name, case in globals().items() if name.startswith("test_")}
-  
