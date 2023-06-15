@@ -1,24 +1,9 @@
 [project]
-name = "classifier"
-version = "2021.4.0"
-description = "Python 3 Object-Oriented Programming, 4th ed., Chapter 1"
+name = "iris-classifier"
+version = "0.0.1"
+description = ""
 readme = "README.md"
-requires-python = ">=3.9"
-license = {file = "LICENSE.txt"}
-keywords = ["k-NN", "object-oriented design"]
-authors = [
-  {email = "slott56@gmail.com"},
-  {name = "Steven F. Lott"}
-]
-
-[tool.tox]
-legacy_tox_ini = """
-[tox]
-description = "No real tests in this chapter."
-minversion = 3.20.0
-skipsdist = True
-[testenv]
-deps =
-  pytest==6.2.4
-  mypy==0.812
-"""
+require-python = ">3.8"
+[[project.authors]]
+email = "lego51@naver.com"
+name = "ahnhyoseung"
