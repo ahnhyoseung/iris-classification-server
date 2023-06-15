@@ -1,5 +1,5 @@
 [project]
-name = "iris-classifier"
+name = "iris-classification-server"
 version = "0.0.1"
 description = ""
 readme = "README.md"
